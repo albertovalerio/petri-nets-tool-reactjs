@@ -1,0 +1,19 @@
+.toastify.on{
+    transform: translate(0px, 0px);
+    top: 15px;
+}
+.modal.show{
+    margin-top: 0px;
+    margin-left: 0px;
+    padding-left: 0px;
+    z-index: 10000;
+}
+.sidebar-close{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: auto;
+    margin-top: 1rem;
+    margin-left: -3rem;
+    margin-right: 0.75rem;
+}

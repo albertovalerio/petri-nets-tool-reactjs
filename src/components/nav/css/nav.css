@@ -1,0 +1,15 @@
+.side-nav > ul > li:nth-child(3) > a.side-menu--active {
+    animation: 0.8s intro-active-menu-animation ease-in-out 0.33333s;
+}
+.side-nav .side-menu .side-menu__title .side-menu__sub-icon{
+    transition-duration: 300ms;
+}
+.side-menu--open .side-menu__sub-icon {
+    transform: rotate(180deg);
+}
+.side-menu.side-menu--active + ul, .side-menu.side-menu--open + ul, .mobile-menu ul li a.menu--open + ul{
+    display: block;
+}
+.side-nav > ul > li:nth-child(2) > a.side-menu--active .side-menu__sub-icon {
+    transform: rotate(180deg);
+}

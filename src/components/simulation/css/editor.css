@@ -1,0 +1,66 @@
+.react-flow__attribution {
+    display: none;
+}
+.react-flow__node{
+    visibility: visible !important;
+}
+.my-custom-node{
+    background-color: #fff;
+    border: 2px solid;
+    padding: 0.5rem;
+    text-align: center;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 1px 2px 0 rgb(0 0 0 / 0.05);
+    transition-property: color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+}
+.my-custom-node label{
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    bottom: -25px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.my-custom-node .react-flow__handle{
+    width: 12px;
+    height: 12px;
+    cursor: crosshair;
+}
+.place-node{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border-color: rgb(30 64 175);
+}
+.place-node .token {
+    width: 60px;
+}
+.place-node .react-flow__handle.source {
+    background-color: rgb(30 64 175);
+}
+.place-node .react-flow__handle.target {
+    background-color: #fff;
+    border: 2px solid rgb(30 64 175);
+}
+.transition-node .react-flow__handle.source {
+    background-color: rgb(13 148 136);
+}
+.transition-node .react-flow__handle.target {
+    background-color: #fff;
+    border: 2px solid rgb(13 148 136);
+}
+.transition-node{
+    border-radius: 5px;
+    width: 25px;
+    height: 60px;
+    border-color: rgb(13 148 136);
+}
+.h-500{
+    height: 600px;
+}

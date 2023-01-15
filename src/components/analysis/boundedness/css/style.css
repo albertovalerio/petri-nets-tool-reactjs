@@ -1,0 +1,44 @@
+.table{
+    font-family: 'Roboto', sans-serif;
+}
+.table svg {
+    margin: auto;
+}
+.boundedness-node{
+    background-color: #fff;
+    border: 2px solid;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    border-radius: 50%;
+    border-color: rgb(30 64 175);
+    width: 80px;
+    height: 80px;
+    margin: 5px auto;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.boundedness-handle-target{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+    left: -30px;
+    background-color: #fff;
+    border: 2px solid rgb(30 64 175);
+}
+.boundedness-handle-source{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+    right: -30px;
+    border: 1px solid #fff;
+    background-color: rgb(30 64 175);
+}
+.boundedness-node span {
+    width: 75px;
+    position: absolute;
+}

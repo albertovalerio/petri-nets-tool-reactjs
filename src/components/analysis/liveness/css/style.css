@@ -1,0 +1,46 @@
+.table{
+    font-family: 'Roboto', sans-serif;
+}
+.table svg {
+    margin: auto;
+}
+.liveness-node{
+    background-color: #fff;
+    border: 2px solid;
+    padding: 0.5rem;
+    text-align: center;
+    display: block;
+    align-items: center;
+    justify-content: center;
+    cursor: default;
+    border-radius: 5px;
+    border-color: rgb(13 148 136);
+    width: 30px;
+    height: 70px;
+    margin: 5px auto;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 0 #0000, 0 20px 25px -5px rgb(0 0 0 / 0.1), 0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+.liveness-handle-target{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+    left: -17px;
+    top: 18px;
+    background-color: #fff;
+    border: 2px solid rgb(13 148 136);
+}
+.liveness-handle-source{
+    width: 15px;
+    height: 15px;
+    position: relative;
+    border-radius: 50%;
+    right: -12px;
+    top: 3px;
+    border: 1px solid #fff;
+    background-color: rgb(13 148 136);
+}
+.liveness-node span {
+    width: 75px;
+    position: absolute;
+}
