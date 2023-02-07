@@ -49,8 +49,8 @@ const matchMarkingToTransitions = (paths, edges) => {
         p[0].forEach((m,i) => {
             if (i > 0) {
                 const edge = edges.find((e) => e.source === p[0][i-1].replace('-LOOP','') && e.target === m.replace('-LOOP',''))
-                if (m.includes('-LOOP')) {
-                    const index = p[0].indexOf(m.replace('-LOOP',''))
+                const index = p[0].indexOf(m.replace('-LOOP',''))
+                if (m.includes('-LOOP') && index !== -1) {
                     const loopEdge = edges.find((e) => e.source === p[0][index].replace('-LOOP','') && e.target === p[0][index + 1].replace('-LOOP',''))
                     row.push(edge.label)
                     row.push(loopEdge.label+'_LOOP')
