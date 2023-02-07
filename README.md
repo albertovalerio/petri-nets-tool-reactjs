@@ -45,6 +45,8 @@ npm start
 
 ## Contact
 
+My name is **Alberto G. Valerio** and this project has been realized by me as university laboratory activity for the exam in *Formal Methods for Computer Science*, Master Degree in Computer Science, curriculum studies in Artificial Intelligence at University of Bari "Aldo Moro", Italy.
+
 My email - [info@albertovalerio.com](info@albertovalerio.com)
 
 My website: [https://albertovalerio.com](https://albertovalerio.com)
